@@ -1,0 +1,33 @@
+   
+@media (max-width: 660px){
+    
+    .stats {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100vw;
+       
+       
+    }
+    .containerinfo {
+        width: 100vw;
+        border-radius: 0 0 40px 40px;
+    }
+
+    .results {
+      gap: 15px;
+    }
+}
+
+@media (max-width: 413px){
+    
+    .containerinfo,
+    .results,
+    .circle,
+    .stats {
+        min-height: 150px;
+    
+    }
+    
+
+}
